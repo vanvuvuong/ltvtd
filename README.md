@@ -11,3 +11,10 @@
 ## [(Cách) Tiếp cận thực dụng](./tiep-can-thuc-dung.md)
 
 ## [Công cụ cơ bản](./cong-cu-co-ban.md)
+
+## [Lời thề của lập trình viên web](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps#web-programmers-oath)
+- Tôi sẽ mở `console` mọi lúc khi tôi mở trình duyệt lên.
+- Tôi sẽ phát triển một cách từ từ.
+- Tôi sẽ viết rất nhiều câu lệnh `console.log` để tôi có thể chắc luồng code chạy như thế nào & xác định được bug nhanh chóng.
+- Nếu code của tôi không chạy được, tôi sẽ dừng viết code & xóa code cho đến khi nó chạy được hoặc chuyển thể code về phiên bản có thể chạy được.
+- Khi tôi cần tới sự giúp đỡ, tôi sẽ chuẩn bị câu hỏi một cách đầy đủ & rõ ràng.
