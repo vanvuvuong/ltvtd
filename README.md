@@ -61,7 +61,18 @@ VBTT có thể lưu ở các dạng HTML, JSON, YAML, XML ... chứ không nhấ
 
 ### [17. Shell games](#công-cụ-cơ-bản)
 
+Để lập trình viên có thể quản trị các file văn bản, công cụ hữu dụng nhất là shell. Từ shell, bạn có thể tận dụng được toàn bộ những chúng năng của công cụ, kết hợp output theo cái cách mà đến cả những người tạo ra những tools đó còn không nghĩ ra được. Từ shell, bạn có thể tìm kiếp files, debug, mở trình duyệt, mở editor & những công cụ khác.
 
+Không phải là chúng ta có thể thực hiện những điều trên bằng GUI sao? Vậy sao chúng ta không làm trên GUI cho tiện?
+Câu trả lời là không.
+
+> Hãy tận dụng sức mạnh của Câu lệnh Shells (Command Shells)
+
+Lợi ích của GUI là **WYSIWYG** (What You See Is What You Get) - những gì bạn thấy là tất cả những gì bạn nhận (được) & bất lợi là **WYSIAYG** (What You See Is All You Get) - những gì bạn thấy là **tất cả** những gì bạn nhận (được)
+
+```shell
+grep '^import ' *.java | sed -e's/^import  *//' -e's/;.*$//' | sort -u >list
+```
 
 # [Lời thề của lập trình viên web](#mục-lục)
 
