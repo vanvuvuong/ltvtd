@@ -1,7 +1,7 @@
 ## Mục lục
 
 - [(cẩm nang) Lập trình viên thực dụng](#cẩm-nang-lập-trình-viên-thực-dụng)
-  - [II. Triết lý thực dụng](#ii-triết-lý-thực-dụng)
+  - [I. Triết lý thực dụng](#i-triết-lý-thực-dụng)
     - [1. Đó là cuộc đời của bạn](#1-đó-là-cuộc-đời-của-bạn)
     - [2. Mèo đớp mất source code của tôi rồi](#2-mèo-đớp-mất-source-code-của-tôi-rồi)
   - [II. (Cách) Tiếp cận thực dụng](#ii-cách-tiếp-cận-thực-dụng)
@@ -19,7 +19,7 @@
 
 > Nếu bạn là nhà xuất bản & thấy rằng repo này không nên để public, hãy liên hệ tôi qua Gmail: <vanvuvuong3@gmail.com> tôi sẽ đổi sang trạng thái private.
 
-## [II. Triết lý thực dụng](#mục-lục)
+## [I. Triết lý thực dụng](#mục-lục)
 
 ### [1. Đó là cuộc đời của bạn](#triết-lý-thực-dụng)
 
