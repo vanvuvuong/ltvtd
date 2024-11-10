@@ -37,6 +37,22 @@ Hãy dành thời gian để tạo ra sự thay đổi. Đổi sếp, đổi cô
 ### [2. Mèo đớp mất source code của tôi rồi](#triết-lý-thực-dụng)
 
 > Sợ bị trông là yếu đuối là chính sự yếu đuối kinh khủng nhất.
+> Một trong những nền tảng của triết lý thực dụng là nhận trách nhiệm của bản thân & hành động của bản thân trong sự nghiệp, học hành, những dự án của mình & công việc hàng ngày.
+
+Lập trình viên thực dụng (LTVTD) nắm mọi quyền trong việc lựa chọn sự nghiệp & không ngại thừa nhận sự thiếu hiểu biết hay sai lầm.
+
+Dù cho một dự án có suôn sẻ đến đâu, những vấn đề kỹ thuật không lường trước sẽ xuất hiện. Chúng diễn ra và chúng ta nỗ lực xử lý chúng chuyên nghiệp nhất có thể. **Điều này có nghĩa là hãy trung thực & thẳng thắn.** Chúng ta có thể tư hào về năng lực của mình nhưng chúng ta phải thừa nhận những thiếu sót, sự ngu muội & sai lầm của mình.
+
+**Lòng tin đội ngũ**
+
+Trên tất cả, đội ngũ của bạn tin tưởng & dựa vào bạn - và bạn cần thoải mái với việc dựa vào người khác nữa. Lòng tin trong đội ngũ là một điều thiết yếu cho sự sáng tạo & hợp tác.
+
+**Nhận trách nhiệm**
+
+> Tip 4: Hãy đưa ra những lựa chọn đừng đưa ra những lời đổ lỗi vô nghĩa.
+
+Trách nhiệm là thứ gì đó bạn chủ động đồng ý. Bạn cam kết làm một cái gì đó xong, nhưng bạn không cần phải kiểm soát mọi khía cạnh của nó.
+Trong khi bạn làm mọi thứ có thể, bạn cần phải phân tích những rủi ro nằm ngoài tầm với của mình & bạn có quyền không ko trách nhiệm cho những tình huống bất khả thi, hoặc rủi ro quá lớn.
 
 ## [II. (Cách) Tiếp cận thực dụng](#mục-lục)
 
