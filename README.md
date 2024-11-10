@@ -5,6 +5,7 @@
     - [1. Đó là cuộc đời của bạn](#1-đó-là-cuộc-đời-của-bạn)
     - [2. Mèo đớp mất source code của tôi rồi](#2-mèo-đớp-mất-source-code-của-tôi-rồi)
   - [II. (Cách) Tiếp cận thực dụng](#ii-cách-tiếp-cận-thực-dụng)
+    - [8. Điều cần thiết của một thiết kế tốt](#8-điều-cần-thiết-của-một-thiết-kế-tốt)
   - [III. Công cụ cơ bản](#iii-công-cụ-cơ-bản)
     - [16. Sức mạnh của văn bản thuần túy](#16-sức-mạnh-của-văn-bản-thuần-túy)
     - [17. Shell games](#17-shell-games)
@@ -55,6 +56,12 @@ Trách nhiệm là thứ gì đó bạn chủ động đồng ý. Bạn cam kế
 Trong khi bạn làm mọi thứ có thể, bạn cần phải phân tích những rủi ro nằm ngoài tầm với của mình & bạn có quyền không ko trách nhiệm cho những tình huống bất khả thi, hoặc rủi ro quá lớn.
 
 ## [II. (Cách) Tiếp cận thực dụng](#mục-lục)
+
+### [8. Điều cần thiết của một thiết kế tốt](#ii-cách-tiếp-cận-thực-dụng)
+
+> Tip 14: Thiết kế tốt sẽ dễ để thay đổi hơn là một thiết kế tồi
+
+Easy to change (ETC) - Dễ để thay đổi là một giá trị, không phải một quy tắc
 
 ## [III. Công cụ cơ bản](#mục-lục)
 
