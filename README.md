@@ -4,11 +4,11 @@
   - [I. Triết lý thực dụng](#i-triết-lý-thực-dụng)
     - [1. Đó là cuộc đời của bạn](#1-đó-là-cuộc-đời-của-bạn)
     - [2. Mèo đớp mất source code của tôi rồi](#2-mèo-đớp-mất-source-code-của-tôi-rồi)
-    - [\[3. (Tính) Bất ổn (của) Phần mềm\]](#3-tính-bất-ổn-của-phần-mềm)
-    - [\[4. Nồi xúp đá (cuội) và Luộc ếch\]](#4-nồi-xúp-đá-cuội-và-luộc-ếch)
-    - [\[5. Phần mềm Đủ-Tốt\]](#5-phần-mềm-đủ-tốt)
-    - [\[6. Danh mục kiến thức của bạn\]](#6-danh-mục-kiến-thức-của-bạn)
-    - [\[7. Giao tiếp\]](#7-giao-tiếp)
+    - [3. (Tính) Bất ổn (của) Phần mềm](#3-tính-bất-ổn-của-phần-mềm)
+    - [4. Nồi xúp đá (cuội) và Luộc ếch](#4-nồi-xúp-đá-cuội-và-luộc-ếch)
+    - [5. Phần mềm Đủ-Tốt](#5-phần-mềm-đủ-tốt)
+    - [6. Danh mục kiến thức của bạn](#6-danh-mục-kiến-thức-của-bạn)
+    - [7. Giao tiếp](#7-giao-tiếp)
   - [II. (Cách) Tiếp cận thực dụng](#ii-cách-tiếp-cận-thực-dụng)
     - [8. Điều cần thiết của một thiết kế tốt](#8-điều-cần-thiết-của-một-thiết-kế-tốt)
   - [III. Công cụ cơ bản](#iii-công-cụ-cơ-bản)
@@ -26,7 +26,7 @@
 
 ## [I. Triết lý thực dụng](#mục-lục)
 
-### [1. Đó là cuộc đời của bạn](#triết-lý-thực-dụng)
+### [1. Đó là cuộc đời của bạn](#i-triết-lý-thực-dụng)
 
 > Tôi sống trên đời không phải để đáp ứng kỳ vọng của bạn, và bạn sống trên đời cũng không phải để đáp ứng kỳ vọng của tôi. ~Lý Tiểu Long
 
@@ -42,7 +42,7 @@ Nếu công nghệ (này) trông có vẻ cỗ lỗ, hãy dành thời gian đ�
 
 Muốn làm từ xa? Bạn đã thử hỏi (sếp) chưa? Nếu họ nói không, hãy tìm ai đồng ý.
 
-### [2. Mèo đớp mất source code của tôi rồi](#triết-lý-thực-dụng)
+### [2. Mèo đớp mất source code của tôi rồi](#i-triết-lý-thực-dụng)
 
 > Sợ bị trông là yếu đuối là chính sự yếu đuối kinh khủng nhất. ~J.B. Bossuet, Politics from Holy Writ, 1709
 
@@ -72,7 +72,7 @@ Trước khi bạn kể lể vấn đề với người khác, bạn đã thử 
 
 Đừng viện cớ này nọ, hãy đưa giải pháp.
 
-### [3. (Tính) Bất ổn (của) Phần mềm]
+### [3. (Tính) Bất ổn (của) Phần mềm](#i-triết-lý-thực-dụng)
 
 > Đừng sống với chiêc cửa sổ hỏng
 
@@ -80,16 +80,16 @@ Trước khi bạn kể lể vấn đề với người khác, bạn đã thử 
 
 **Đầu tiên, đừng gây hại**
 
-### [4. Nồi xúp đá (cuội) và Luộc ếch]
+### [4. Nồi xúp đá (cuội) và Luộc ếch](#i-triết-lý-thực-dụng)
 
 > Hãy trở thành nhân tố xúc tách cho sự thay đổi
 > Hãy nhớ bức tranh tổng quan
 
-### [5. Phần mềm Đủ-Tốt]
+### [5. Phần mềm Đủ-Tốt](#i-triết-lý-thực-dụng)
 
 > Biến chất lượng thành đòi hỏi bắt buộc
 
-### [6. Danh mục kiến thức của bạn]
+### [6. Danh mục kiến thức của bạn](#i-triết-lý-thực-dụng)
 
 > Đầu tư vào kiến thức luôn là lãi nhất ~ Benjamin Franklin
 
@@ -129,7 +129,7 @@ _Cập nhật tin tức_
 
 **Suy nghĩ chín chắn**
 
-### [7. Giao tiếp]
+### [7. Giao tiếp](#i-triết-lý-thực-dụng)
 
 ## [II. (Cách) Tiếp cận thực dụng](#mục-lục)
 
