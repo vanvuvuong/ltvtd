@@ -5,12 +5,13 @@
     - [1. Đó là cuộc đời của bạn](#1-đó-là-cuộc-đời-của-bạn)
     - [2. Mèo đớp mất source code của tôi rồi](#2-mèo-đớp-mất-source-code-của-tôi-rồi)
     - [3. (Tính) Bất ổn (của) Phần mềm](#3-tính-bất-ổn-của-phần-mềm)
-    - [4. Nồi xúp đá (cuội) và Luộc ếch](#4-nồi-xúp-đá-cuội-và-luộc-ếch)
+    - [4. Nồi súp đá (cuội) và Luộc ếch](#4-nồi-súp-đá-cuội-và-luộc-ếch)
     - [5. Phần mềm Đủ-Tốt](#5-phần-mềm-đủ-tốt)
     - [6. Danh mục kiến thức của bạn](#6-danh-mục-kiến-thức-của-bạn)
     - [7. Giao tiếp](#7-giao-tiếp)
   - [II. (Cách) Tiếp cận thực dụng](#ii-cách-tiếp-cận-thực-dụng)
     - [8. Điều cần thiết của một thiết kế tốt](#8-điều-cần-thiết-của-một-thiết-kế-tốt)
+    - [9. DRY - Những con quỷ của việc trùng lặp](#9-dry---những-con-quỷ-của-việc-trùng-lặp)
   - [III. Công cụ cơ bản](#iii-công-cụ-cơ-bản)
     - [16. Sức mạnh của văn bản thuần túy](#16-sức-mạnh-của-văn-bản-thuần-túy)
     - [17. Shell games](#17-shell-games)
@@ -74,13 +75,29 @@ Trước khi bạn kể lể vấn đề với người khác, bạn đã thử 
 
 ### [3. (Tính) Bất ổn (của) Phần mềm](#i-triết-lý-thực-dụng)
 
+Trong luật vật lý, định luật nhiệt động lực học đảm bảo rằng sự hỗn độn trong vũ trụ sẽ có xu hướng tiến tới mức tối đa. Khi sự hỗn độn của phần mềm tăng dần, chúng tôi gọi nó là "phần mềm thối rữa", hoặc "món nợ kỹ thuật" - với ý nghĩa là chúng cần phải được trả vào lúc nào đó.
+
+Dù có cái tên gì đi nữa những sự hư hại có thể lây lan một cách không thể kiểm soát. Vậy ta cần làm gì?
+
+Ở một thành phố nọ, có những tòa nhà đẹp đẽ và sạch sẽ, trong khi những tòa nhà khác lại bẩn thỉu, hôi hám. Tại sao? Những nghiên cứu trong lĩnh vực tội phạm và suy đồi (ở) đô thị khám phá ra một điểm kích hoạt thú vị, điều mà nhanh chóng biến một khu vực sạch sẽ, nguyên vẹn, nhiều người ở thành một đống hỗ độn, khu vực tan hoang.
+
+Một chiếc cửa sổ hỏng.
+
+Một chiếc cửa sổ hỏng, mặc kệ không được sửa chữa trong một khoảng thời gian dài, gieo vào cư dần của tòa nhà cảm giác bỏ bê - có vẻ như những nhà quản lý không quan tâm tới toà nhà. Nên những chiếc của sổ khác bị hỏng. Mọi người bắt đầu nhếch nhác. Những hình vẽ bậy xuất hiện. Sự hư hại nặng hơn bắt đầu xuất hiện. Trong một thời gian ngắn, toà nhà trở nên hư hỏng nặng quá sức sửa chữa mà người chủ có thể sửa được. Cảm giác bỏ bê bỗng chốc trở thành sự thật.
+
 > Đừng sống với chiêc cửa sổ hỏng
 
 Đừng để "những chiếc của sổ hỏng" (thiết kế tệ hại, quyết định sai lầm, những dòng mã ngớ ngẩn) ko được sửa. Sửa từng cái một ngay khi chúng được phát hiện. Nếu không đủ thời gian để sửa chúng một cách chính xác, hãy vã nó lại. Thêm dòng bình luận vào đoạn mã, hiển thị thông báo "Chưa triển khai". Chí ít hãy làm điều gì đó để ngăn chặn những thiệt hai và cho thấy bạn kiểm soát tình hình.
 
-**Đầu tiên, đừng gây hại**
+### [4. Nồi súp đá (cuội) và Luộc ếch](#i-triết-lý-thực-dụng)
 
-### [4. Nồi xúp đá (cuội) và Luộc ếch](#i-triết-lý-thực-dụng)
+_Ba người lính trở về nhà sau cuộc chiến đang đói vô cùng. Khi họ thấy ngôi làng phía trước lòng họ thấy ấm dần - họ chắc mẩm rằng những người của ngôi làng sẽ cho họ một bữa ăn no. Nhưng khi họ tới, họ phát hiện những cánh cửa đã khóa, cửa sổ đóng kín. Sau nhiều năm chiến tranh, ngôi làng đã cạn kiệt đồ ăn, và đồ tích trữ mà họ có_
+
+_Không hề nao núng, những người lính nấu một nồi nước sôi và cẩn thận cho vào đó 3 hòn đá. Những người trong làng tò mò tới xem._
+
+_"Đây là súp đá" những người lính giải thích. "Đó là tất cả những gì bọn anh cho vào sao?" Dân làng hỏi._
+
+_"Tất nhiên rồi - dù thế, có vài người nói là nó sẽ ngon hơn nếu cho thêm ít cà rốt..." Một dân làng chạy đi, rồi trở lại với một rổ cà rốt từ kho dự trữ của ông._
 
 > Hãy trở thành nhân tố xúc tách cho sự thay đổi
 > Hãy nhớ bức tranh tổng quan
@@ -128,16 +145,73 @@ _Cập nhật tin tức_
 **Cơ hội cho việc học hành**
 
 **Suy nghĩ chín chắn**
+Bạn cần chắc chắn rằng những kiến thức trong danh mục của bạn là chính xác và không bị cường điệu hóa bởi nhà cung cấp hay bởi truyền thông. Cảnh giác với những kẻ cuồng tính khăng khăng giáo điều của họ là câu trả lời duy nhất - chúng có thể hoặc ko thể áp dụng cho bạn và dự án của bạn.
+
+Đừng bao giờ đánh giá thấp sức mạnh của thương mại hóa.
+
+> Phân tích thận trọng những gì bạn đọc và nghe
+
+_Hỏi "tại sao" 5 lần_
+Lý do gì khiến điều này xảy ra? Lý do gì khiến người ta làm điều này? Lý do gì ...? Lý do gì...? Lý do gì...? Mục tiêu là để mở rộng tư duy và lối mòn suy nghĩ của bạn để tới gần nhất với gốc rễ vấn đề.
+
+_Ai sẽ hưởng lợi?_
+Điều này nghe hoài nghi, tuy nhiên _hãy đi theo dòng tiền_ là cách tốt để phân tích. Lợi ích của người hoặc tổ chức khác có thể khớp hoặc không khớp với lợi ích của bạn.
+
+_Bối cảnh là gì?_
+Tất cả mọi thứ đều đi kèm với bối cảnh cụ thể. Đó là lý do giải pháp "một cho tất cả" thường không thực hiện được. Khi xem xét một bài viết hoặc cuốn sách nói về "(Giải pháp) thực tiễn tốt nhất". Câu hỏi hay cần xem xét là "tốt nhất cho ai?". Điều kiện cần là gì? Hậu quả ngắn, dài hạn xảy ra là gì?
+
+_Khi nào hay ở đâu nó sẽ thành công?_
+Ở điều kiên nào? Bây giờ là quá sớm, hay quá muộn? Đừng chỉ dừng lại với câu trả lời đầu tiên, hãy tiếp tục. _Điều gì sẽ diễn ra sau đó?_
+
+_Lý do gì điều này là vấn đề?_
+Có một mô hình cơ bản nào không? Mô hình đó hoạt động như thế nào?
 
 ### [7. Giao tiếp](#i-triết-lý-thực-dụng)
+
+> Tiếng anh chỉ là một ngôn ngữ lập trình khác
+
+**Biết Khán Giả của Bạn**
+
+**Biết Điều Bạn Muốn Nói**
+
+**Chọn Thời Điểm cho mình**
+
+**Chọn Phong Cách**
+
+**Làm cho nó trông tốt**
+
+> Nó là cả những điều bạn nói và cách bạn nói chúng.
+
+**Trở thành Người Lắng Nghe**
+
+**Tài liệu**
 
 ## [II. (Cách) Tiếp cận thực dụng](#mục-lục)
 
 ### [8. Điều cần thiết của một thiết kế tốt](#ii-cách-tiếp-cận-thực-dụng)
 
-> Tip 14: Thiết kế tốt sẽ dễ để thay đổi hơn là một thiết kế tồi
+> Thiết kế tốt sẽ dễ để thay đổi hơn là một thiết kế tồi
 
-Easy to change (ETC) - Dễ để thay đổi là một giá trị, không phải một quy tắc
+Một thứ được thiết kế tốt nếu chúng thích nghi với những người sử dụng chúng.
+
+Tại sao tránh trùng lặp lại tốt? Bởi chúng cô lập những mối lo ngại để chúng ta dễ thay đổi chúng hơn
+
+Tại sao nguyên tắc một trách nhiệm duy nhất hữu hiệu? Bởi vì thay đổi yêu cầu sẽ chỉ dẫn tới sự thay đổi của chỉ một mô-đun.
+
+Tại sao đặt tên lại quan trọng? Bởi tên đặt tốt khiến mã dễ
+đọc hơn và chúng ta phải đọc nó để thay đổi nó.
+
+**Easy to change (ETC) - Dễ để thay đổi là một giá trị, không phải một quy tắc**
+
+Hãy tự hỏi bản thân: "Cái mình vừa làm có khiến hệ thống dễ hay khó thay đổi hơn?". Tự hỏi lúc bạn lưu một tệp tin, tự hỏi lúc bạn viết một (đoạn mã) kiểm tra, tự hỏi lúc bạn sửa một lỗi.
+
+Nhiều lúc bạn không biết bắt đầu từ đâu, hãy làm 2 điều sau:
+1. Viết ra những điều bạn không chắc là nên thay đổi như thế nào.
+2. Viết lại tình huống đó vào Nhật ký kỹ sư của bạn: những lựa chọn bạn có, những dự đoán về sự thay đổi. Để rồi sau này bạn có xem lại, bạn sẽ biết được bạn cần làm tốt hơn ntn.
+
+### [9. DRY - Những con quỷ của việc trùng lặp](#ii-cách-tiếp-cận-thực-dụng)
+
+Là lập trình viên, chúng ta thu thập, tổ chức, bảo trì và tận dụng kiến thức. Không may là, kiến thức lại không ổn định. Yêu cầu của khách hàng thay đổi mỗi cuộc họp. 
 
 ## [III. Công cụ cơ bản](#mục-lục)
 
