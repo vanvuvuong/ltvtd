@@ -111,6 +111,7 @@ _"Tất nhiên rồi - dù thế, có vài người nói là nó sẽ ngon hơn 
 > Đầu tư vào kiến thức luôn là lãi nhất ~ Benjamin Franklin
 
 **Danh mục kiến thức của bạn**
+
 Quản lý danh mục kiến thức cũng hệt như quản lý danh mục đầu tư:
 
 1. Nhà đầu tư nghiên túc đầu tư đều đặn - như một thói quen
@@ -120,31 +121,37 @@ Quản lý danh mục kiến thức cũng hệt như quản lý danh mục đầ
 5. Danh mục cần được xem và tái cân bằng định kỳ
 
 **Xây dựng danh mục của bạn**
+
 _Đầu tư đều đặn_
+
 Lên kế hoạch kiên trì sử dụng một khoảng thời gian và địa điểm, trốn khỏi mọi sự phiền nhiễu để hoàn thành mục tiêu.
 
 _Đa dạng hóa_
+
 Bạn càng biết nhiều thứ khác nhau, bạn càng có nhiều giá trị. Bạn càng thành thạo nhiều công nghệ khác nhau, bạn càng dễ thích nghi với thay đổi. Và đừng quên cải thiện cả những kỹ năng ko-liên-quan tới kỹ thuật.
 
 _Quản trị rủi ro_
 
 _Mua thấp, bán cao_
+
 Học một loại công nghệ trước khi chúng trở nên phổ biến cũng khó như là việc đi kiếm những cổ phiếu được định giá thấp vậy, nhưng đổi lại là phần thưởng lớn.
 
 _Xem lại và tái cân bằng_
 
 **Mục tiêu**
-_Học ít nhất một ngôn ngữ lập trình mỗi năm_
-_Đọc một cuốn sách kỹ thuật mỗi tháng_
-_Đọc một cuốn sách không liên quan tới kỹ thuật nữa_
-_Tham gia các khóa học_
-_Tham gia các hội nhóm địa phương_
-_Thử nghiệm môi trường khác nhau_
-_Cập nhật tin tức_
+
+- _Học ít nhất một ngôn ngữ lập trình mỗi năm_
+- _Đọc một cuốn sách kỹ thuật mỗi tháng_
+- _Đọc một cuốn sách không liên quan tới kỹ thuật nữa_
+- _Tham gia các khóa học_
+- _Tham gia các hội nhóm địa phương_
+- _Thử nghiệm môi trường khác nhau_
+- _Cập nhật tin tức_
 
 **Cơ hội cho việc học hành**
 
 **Suy nghĩ chín chắn**
+
 Bạn cần chắc chắn rằng những kiến thức trong danh mục của bạn là chính xác và không bị cường điệu hóa bởi nhà cung cấp hay bởi truyền thông. Cảnh giác với những kẻ cuồng tính khăng khăng giáo điều của họ là câu trả lời duy nhất - chúng có thể hoặc ko thể áp dụng cho bạn và dự án của bạn.
 
 Đừng bao giờ đánh giá thấp sức mạnh của thương mại hóa.
@@ -152,18 +159,23 @@ Bạn cần chắc chắn rằng những kiến thức trong danh mục của b�
 > Phân tích thận trọng những gì bạn đọc và nghe
 
 _Hỏi "tại sao" 5 lần_
+
 Lý do gì khiến điều này xảy ra? Lý do gì khiến người ta làm điều này? Lý do gì ...? Lý do gì...? Lý do gì...? Mục tiêu là để mở rộng tư duy và lối mòn suy nghĩ của bạn để tới gần nhất với gốc rễ vấn đề.
 
 _Ai sẽ hưởng lợi?_
+
 Điều này nghe hoài nghi, tuy nhiên _hãy đi theo dòng tiền_ là cách tốt để phân tích. Lợi ích của người hoặc tổ chức khác có thể khớp hoặc không khớp với lợi ích của bạn.
 
 _Bối cảnh là gì?_
+
 Tất cả mọi thứ đều đi kèm với bối cảnh cụ thể. Đó là lý do giải pháp "một cho tất cả" thường không thực hiện được. Khi xem xét một bài viết hoặc cuốn sách nói về "(Giải pháp) thực tiễn tốt nhất". Câu hỏi hay cần xem xét là "tốt nhất cho ai?". Điều kiện cần là gì? Hậu quả ngắn, dài hạn xảy ra là gì?
 
 _Khi nào hay ở đâu nó sẽ thành công?_
+
 Ở điều kiên nào? Bây giờ là quá sớm, hay quá muộn? Đừng chỉ dừng lại với câu trả lời đầu tiên, hãy tiếp tục. _Điều gì sẽ diễn ra sau đó?_
 
 _Lý do gì điều này là vấn đề?_
+
 Có một mô hình cơ bản nào không? Mô hình đó hoạt động như thế nào?
 
 ### [7. Giao tiếp](#i-triết-lý-thực-dụng)
@@ -206,12 +218,13 @@ Tại sao đặt tên lại quan trọng? Bởi tên đặt tốt khiến mã d�
 Hãy tự hỏi bản thân: "Cái mình vừa làm có khiến hệ thống dễ hay khó thay đổi hơn?". Tự hỏi lúc bạn lưu một tệp tin, tự hỏi lúc bạn viết một (đoạn mã) kiểm tra, tự hỏi lúc bạn sửa một lỗi.
 
 Nhiều lúc bạn không biết bắt đầu từ đâu, hãy làm 2 điều sau:
+
 1. Viết ra những điều bạn không chắc là nên thay đổi như thế nào.
 2. Viết lại tình huống đó vào Nhật ký kỹ sư của bạn: những lựa chọn bạn có, những dự đoán về sự thay đổi. Để rồi sau này bạn có xem lại, bạn sẽ biết được bạn cần làm tốt hơn ntn.
 
 ### [9. DRY - Những con quỷ của việc trùng lặp](#ii-cách-tiếp-cận-thực-dụng)
 
-Là lập trình viên, chúng ta thu thập, tổ chức, bảo trì và tận dụng kiến thức. Không may là, kiến thức lại không ổn định. Yêu cầu của khách hàng thay đổi mỗi cuộc họp. 
+Là lập trình viên, chúng ta thu thập, tổ chức, bảo trì và tận dụng kiến thức. Không may là, kiến thức lại không ổn định. Yêu cầu của khách hàng thay đổi mỗi cuộc họp.
 
 ## [III. Công cụ cơ bản](#mục-lục)
 
